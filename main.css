@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ffe6f2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    color: #d6336c;
+    margin-bottom: 40px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    margin: 0 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+#yesBtn {
+    background-color: #ff4d94;
+    color: white;
+}
+
+#noBtn {
+    background-color: #aaa;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #d6336c;
+}
